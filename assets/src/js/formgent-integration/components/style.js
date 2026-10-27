@@ -178,6 +178,7 @@ const EnquiriesComponentStyle = styled.div`
 		}
 		.dataviews-footer {
 			border-radius: 0 0 12px 12px;
+			padding-inline: 25px;
 		}
 		.components-input-control__container {
 			border: 1px solid #e5e7eb;
@@ -318,9 +319,8 @@ const EnquiriesComponentStyle = styled.div`
 		// Bulk actions footer bar
 		.dataviews-bulk-actions-footer__container {
 			background: #fff;
-			border-top: 1px solid #e5e7eb;
 			border-radius: 0 0 12px 12px;
-			padding: 8px 16px;
+			padding: 8px 0;
 			.components-button {
 				font-size: 13px;
 				font-weight: 500;
