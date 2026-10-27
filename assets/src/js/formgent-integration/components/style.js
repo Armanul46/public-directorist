@@ -202,7 +202,11 @@ const EnquiriesComponentStyle = styled.div`
 		.dataviews-view-table {
 			border: none;
 			width: 100%;
-			table-layout: fixed;
+			table-layout: auto;
+			// Size the enquiry column independently of the optional bulk checkbox.
+			col.dataviews-view-table__col-enquiry {
+				width: 38%;
+			}
 			tbody {
 				td {
 					vertical-align: middle;
@@ -419,7 +423,6 @@ const EnquiriesComponentStyle = styled.div`
 			td {
 				&:first-child {
 					padding-left: 25px;
-					width: 38%;
 				}
 				&:last-child {
 					padding-right: 25px;
